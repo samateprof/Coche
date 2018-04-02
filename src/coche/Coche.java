@@ -6,7 +6,24 @@ package coche;
  * @author Fran
  */
 public class Coche {
+ private String nombre;
+    private double precio;
+    private double precioIVA;
+    private int stock;
 
+    /* Constructor sin argumentos */
+    public Coche ()
+    {
+    }
+    // Constructor con parámetro para iniciar todas las propiedades de la clase
+    // coche
+    
+    public Coche (String nom, double precio, int stock)
+    {
+        this.nombre =nom;
+        this.precio=precio;
+        this.stock=stock;
+    }
     /**
      * @return the nombre
      */
@@ -63,24 +80,7 @@ public class Coche {
         this.stock = stock;
     }
 
-    private String nombre;
-    private double precio;
-    private double precioIVA;
-    private int stock;
-
-    /* Constructor sin argumentos */
-    public Coche ()
-    {
-    }
-    // Constructor con parámetro para iniciar todas las propiedades de la clase
-    // coche
-    
-    public Coche (String nom, double precio, int stock)
-    {
-        this.nombre =nom;
-        this.precio=precio;
-        this.stock=stock;
-    }
+   
    // Método para asignar el nombre del coche
     public void asignarNombre(String nom)
     {
