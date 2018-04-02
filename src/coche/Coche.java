@@ -2,7 +2,7 @@
 package coche;
 
 /**
- * Se están usando Git para el control de versiones
+ * Se está usando Git para el control de versiones
  * @author Fran
  */
 public class Coche {
