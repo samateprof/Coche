@@ -1,9 +1,11 @@
 
 package coche;
 
-/** esto es una prueba
+/** 
  *
  * @author Sonia
+ * 
+ * esto es una prueba
  */
 public class Coche {
 
