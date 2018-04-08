@@ -1,7 +1,7 @@
 
 package coche;
 
-/**
+/** esto es una prueba
  *
  * @author Sonia
  */
